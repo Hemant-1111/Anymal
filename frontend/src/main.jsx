@@ -40,7 +40,7 @@ const router = createBrowserRouter(
       <Route path="adoptDogs" element={<ProtectedRoute element={<DogListing />} />} />
       <Route path="adoptCats" element={<ProtectedRoute element={<CatListing />} />} />
       <Route path="others" element={<ProtectedRoute element={<OthersListing />} />} />
-      <Route path="adoptDogs/:id" element={<ProtectedRoute element={<PetListing />} />} />
+    /*  <Route path="adoptDogs/:id" element={<ProtectedRoute element={<PetListing />} />} /> */
       <Route path="adoptCats/:id" element={<ProtectedRoute element={<PetListing />} />} />
       <Route path="others/:id" element={<ProtectedRoute element={<PetListing />} />} />
       <Route path="donate" element={<ProtectedRoute element={<DonatePage />} />} />
