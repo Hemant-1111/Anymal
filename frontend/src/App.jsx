@@ -14,7 +14,9 @@ function App() {
     <>
     {/* <Header />
     <Home />
-    <Footer /> */}
+    <Footer /> */
+    /*this change should be done in the main file */}
+    /*this change should be done in the main file */
     </>
   )
 }
